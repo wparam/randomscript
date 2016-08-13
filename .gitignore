@@ -62,3 +62,4 @@ mongod
 logs/
 build/
 **/bower_components/
+lib/
