@@ -1,0 +1,22 @@
+{
+  "name": "randomscript",
+  "description": "A project that write random code",
+  "main": "index.js",
+  "authors": [
+    "jason"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/wparam/randomscript",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "datatables.net-dt": "^1.10.12",
+    "datatables.net": "^1.10.12",
+    "jquery": "^3.1.0"
+  }
+}
