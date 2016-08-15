@@ -1,11 +1,16 @@
 (function($){
     'use strict';
-    console.log(this);
-    $.fn.starIt = function(){
-        console.log('hit star it');
-        console.log(this);
-        console.log(arguments);
-        $.widget('',{});
-    };
+    
+    $.widget('my.star', {
+        options:{
+            value: 0
+        },
+        _create: function(){
+
+        },
+        _template: function(){
+            return ''
+        }
+    });
 
 }(jQuery));
